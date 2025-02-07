@@ -1,0 +1,7 @@
+/* Add email-specific resets */
+@layer base {
+    img {
+      @apply inline-block;
+    }
+    /* Add other email-specific base styles */
+}
