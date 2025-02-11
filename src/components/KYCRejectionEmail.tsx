@@ -12,7 +12,7 @@ import {
   
   const KYCRejectionEmail = ({ userName = "Uncu Holdings", link }: KYCRejectionEmailProps) => {
     return (
-      <Email preview="Login to Eazzy Tranzact">
+      <Email preview="Your KyB has been rejected">
         <Section>
             <Text className="text-[#1F2937] text-[20px] font-[600] leading-[28px]">
                 KYC Rejection
