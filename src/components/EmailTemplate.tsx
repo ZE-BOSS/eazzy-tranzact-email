@@ -71,7 +71,7 @@ const Email = ({ preview, children }: EmailProps) => {
               {children}
             </div>
           </Container>
-          <Container className="bg-[#FAFAFA] my-[25px] max-w-[40rem] h-[191px]">
+          <Container className="bg-[#FAFAFA] my-[25px] max-w-[40rem] w-full h-[191px]">
             <div className="h-full w-full flex items-center relative">
               <div className="max-w-[399px] px-6">
                 <Text className="text-[12px] font-[200] leading-18px] tracking-[0.2px] text-left">
@@ -113,14 +113,12 @@ const Email = ({ preview, children }: EmailProps) => {
               </div>
             </div>
           </Container>
-          <Container className="flex flex-col justify-center text-[#FFFFFF] items-center bg-[#1F2937] max-w-[40rem] h-[4.875rem] ">
-            <Text className="font-[var(--fontfamilyFont1)] text-[0.75rem] font-normal leading-[var(--itemspacing24)] text-center">
-              2025 Eazzy Tranzact
-            </Text>
-            <Text className="font-[var(--fontfamilyFont1)] text-[0.625rem] font-normal leading-[1.0625rem] text-center">
-              Eazzy Tranzact UK is registerer in England with company number
-              14133153
-            </Text>
+          <Container className=" text-[#FFFFFF] items-center bg-[#1F2937] max-w-[40rem] w-full">
+            <div className="flex flex-col items-center justify-center p-4">
+              <p className="m-0 text-xs font-normal leading-6 text-center font-[var(--fontfamilyFont1)]">
+                © 2025 Eazzy Tranzact
+              </p>
+            </div>
           </Container>
         </Body>
       </Tailwind>
